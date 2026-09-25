@@ -1,0 +1,41 @@
+CRIAÇÃO DO AMBIENTE PYTHON
+
+
+Abrir o Powershell no modo administrator
+
+1 - Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+
+2 - Set-ExecutionPolicy RemoteSigned -Force
+
+3 - python -m venv software
+
+4 - cd software
+
+5 - .\scripts\activate
+
+6 - python -m pip install --upgrade pip
+
+7 - code .
+
+***************************************************************************************************
+
+PARA USAR NO MAC OS
+
+# 1. Verificar se o Python 3 está instalado
+python3 --version
+
+# 2. Criar o ambiente virtual
+python3 -m venv software
+
+# 3. Entrar na pasta do ambiente
+cd software
+
+# 4. Ativar o ambiente virtual
+source bin/activate
+
+# 5. Atualizar o pip
+python -m pip install --upgrade pip
+
+# 6. Abrir o projeto no VS Code
+code .
+
