@@ -7,9 +7,9 @@ Abrir o Powershell no modo administrator
 
 2 - Set-ExecutionPolicy RemoteSigned -Force
 
-3 - python -m venv software
+3 - python -m venv workshop
 
-4 - cd software
+4 - cd workshop
 
 5 - .\scripts\activate
 
@@ -25,10 +25,10 @@ PARA USAR NO MAC OS
 python3 --version
 
 # 2. Criar o ambiente virtual
-python3 -m venv software
+python3 -m venv workshop
 
 # 3. Entrar na pasta do ambiente
-cd software
+cd workshop
 
 # 4. Ativar o ambiente virtual
 source bin/activate
